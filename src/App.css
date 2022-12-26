@@ -49,3 +49,28 @@ div#root {
 .colors div {
   padding: 8px;
 }
+
+
+// media
+@media only screen and (max-width: 991px) {
+  .card {
+    width: -webkit-fill-available;
+  }
+
+  .wrapper {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+
+  .product-canvas {
+    width: -webkit-fill-available;
+  }
+
+  .colors {
+    justify-content: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
